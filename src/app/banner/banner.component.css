@@ -1,0 +1,81 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    
+}
+.image{
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+    background-color: aqua;
+    margin-left: 10%;
+}
+
+.photo{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    background-color: lightblue;
+}
+.description{
+    width: 50%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 10%;
+    h4{
+        color: rgb(3, 27, 87);
+        
+    }
+    p{
+        color: #333;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}  
+
+.soft {
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .soft h2 {
+    text-align: center;
+    color: rgb(3, 27, 87);
+    font-family: Arial, sans-serif;
+    margin-top: 20%;
+  }
+  
+  .soft-skills {
+    list-style: none;
+
+  }
+  
+  .soft-skills li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .soft-skills li:last-child {
+    border-bottom: none;
+  }
+  
+  .soft-skills span {
+    font-size: 18px;
+    color: #555;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .soft-skills .icon {
+    width: 13px;
+    height: 15px;
+    margin-right: 15px;
+
+  }
